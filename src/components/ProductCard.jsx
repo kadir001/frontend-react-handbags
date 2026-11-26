@@ -3,7 +3,7 @@ import './ProductCard.css';
 function ProductCard({ isBestseller, imageURL, name, price }) {
     return (
         <article>
-            {isBestseller && <span>Bestseller</span>}
+            {(isBestseller ? <span>Bestseller</span> : <span>New Collection</span>)}
 
             <img src={imageURL} alt={name} />
 

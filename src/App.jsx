@@ -36,14 +36,14 @@ function App() {
         />
 
         <ProductCard
-            isBestseller={true}
+            isBestseller={false}
             imageURL={bag3}
             name="The simple bag"
             price="300"
         />
 
         <ProductCard
-            isBestseller={true}
+            isBestseller={false}
             imageURL={bag4}
             name="The trendy bag"
             price="150"
